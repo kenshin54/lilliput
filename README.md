@@ -14,7 +14,7 @@ videos.
 **Lilliput presently only supports OSX and Linux.**
 
 ## Example
-Lilliput comes with a [fully working example](examples/main.go) that runs on the command line. The
+Lilliput comes with a [fully working example](cmd/main.go) that runs on the command line. The
 example takes a user supplied filename and prints some basic info about the file.
 It then resizes and transcodes the image (if flags are supplied) and saves the
 resulting file.

@@ -9,11 +9,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/discord/lilliput"
+	"github.com/kenshin54/lilliput"
 )
 
 var EncodeOptions = map[string]map[int]int{
-	".jpeg": map[int]int{lilliput.JpegQuality: 85},
+	".jpeg": map[int]int{lilliput.JpegQuality: 85, lilliput.JpegProgressive: 1},
 	".png":  map[int]int{lilliput.PngCompression: 7},
 	".webp": map[int]int{lilliput.WebpQuality: 85},
 }
